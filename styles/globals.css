@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gym {
+    background-image: url('/images/gym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixované pozadí při scrollování */
+}
+
+.backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thumb-gray-400 {
+    scrollbar-color: #9CA3AF #374151;
+  }
+  
