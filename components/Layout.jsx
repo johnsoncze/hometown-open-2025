@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,7 +46,9 @@ const Layout = ({ children }) => {
         )}
 
         {/* Hlavní obsah */}
-        <main className="w-full max-w-full p-1">{children}</main>
+        <main className="w-full max-w-full p-1">{children}
+        <Analytics id="GJ9ZQ5FQG3" />
+        </main>
       </div>
     </div>
   );
