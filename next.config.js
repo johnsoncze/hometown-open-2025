@@ -3,6 +3,6 @@ module.exports = {
     images: {
       unoptimized: true, // Obrázky nebudou optimalizované
     },
-    basePath: "/htopen", // Důležité pro GitHub Pages
+    basePath: "/hometown-open-2025", // Důležité pro GitHub Pages
   };
   
