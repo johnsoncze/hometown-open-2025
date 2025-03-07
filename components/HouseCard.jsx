@@ -1,31 +1,31 @@
 import React, { useState } from "react";
 
 const houseStyles = {
-  gryffindor: {
-    name: "Nebelvír",
-    color: "bg-red-900",
-    border: "border-yellow-500",
-    emblem: "/images/gryffindor.png",
-  },
-  slytherin: {
-    name: "Zmijozel",
-    color: "bg-green-900",
-    border: "border-silver",
-    emblem: "/images/slytherin.png",
-  },
-  hufflepuff: {
-    name: "Mrzimor",
-    color: "bg-yellow-500",
-    border: "border-black",
-    emblem: "/images/hufflepuff.png",
-  },
-  ravenclaw: {
-    name: "Havraspár",
-    color: "bg-blue-900",
-    border: "border-bronze-500",
-    emblem: "/images/ravenclaw.png",
-  },
-};
+    gryffindor: {
+      name: "Nebelvír",
+      color: "bg-red-900",
+      border: "border-silver",
+      emblem: "/images/gryffindor.png",
+    },
+    slytherin: {
+      name: "Zmijozel",
+      color: "bg-green-900",
+      border: "border-silver",
+      emblem: "/images/slytherin.png",
+    },
+    hufflepuff: {
+      name: "Mrzimor",
+      color: "bg-yellow-500",
+      border: "border-silver",
+      emblem: "/images/hufflepuff.png",
+    },
+    ravenclaw: {
+      name: "Havraspár",
+      color: "bg-blue-900",
+      border: "border-silver",
+      emblem: "/images/ravenclaw.png",
+    },
+  };
 
 const HouseCard = ({ house, captain, head, members, score }) => {
   const { name, color, border, emblem } = houseStyles[house] || houseStyles.gryffindor;
