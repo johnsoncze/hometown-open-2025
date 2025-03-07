@@ -11,7 +11,7 @@ const teamData = [
         members: [
             { name: "Marek O", result: 189, rxsc: "RX", points: 1 },
             { name: "Lucka L", result: 222, rxsc: "RX", points: 5 },
-            { name: "Marti V", result: 206, rxsc: "SC", points: 1},
+            { name: "Marti V", result: 206, rxsc: "RX", points: 1},
             { name: "Honza P", result: 138, rxsc: "SC", points: 1 },
             { name: "Marcel H", result: 130, rxsc: "SC", points: 1 },
             { name: "Adam O", result: 240, rxsc: "RX", points: 5 },
