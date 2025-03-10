@@ -26,10 +26,6 @@ const Results = () => {
                     <div key={house} className={`rounded-lg shadow-lg p-2 mb-6 ${team.color}`}>
                       <h2 className="text-2xl font-bold text-center uppercase">{team.house}</h2>
                       <p className="text-center text-3xl font-bold mt-4">
-                        Body celkem: {team.score}
-                      </p>
-
-                      <p className="text-center text-3xl font-bold mt-4">
                   Body: {team.score}
                 </p>
                 <div className="mt-4 bg-gray-800 p-2 rounded-lg">
