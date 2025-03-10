@@ -2,22 +2,22 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen overflow-hidden"> {/* Zajištění, že nic nevyčnívá */}
       {/* Pozadí s overlayem */}
       <div className="absolute inset-0 bg-gym bg-cover bg-center">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Ztmavení pro lepší čitelnost */}
       </div>
 
       {/* Obsah stránky */}
-      <div className="relative z-10 flex flex-col items-center text-white min-h-screen">
+      <div className="relative z-10 flex flex-col items-center text-white min-h-screen w-full">
         {/* Logo a navigace */}
-        <header className="w-full flex justify-between items-center py-4 px-6 bg-gray-800">
+        <header className="w-full flex justify-between items-center py-4 px-6 bg-gray-800 flex-wrap"> {/* Flex wrap pro mobil */}
           <Link href="/">
             <Image src="/images/cfht-logo.svg" alt="CrossFit Hometown" width={200} height={100} className="cursor-pointer" />
           </Link>
@@ -46,8 +46,9 @@ const Layout = ({ children }) => {
         )}
 
         {/* Hlavní obsah */}
-        <main className="w-full max-w-full p-1">{children}
-        <Analytics id="GJ9ZQ5FQG3" />
+        <main className="w-full max-w-screen-lg p-0 md:p-4 overflow-hidden">{/* Nastavení max šířky a paddingu */}
+          {children}
+          <Analytics id="GJ9ZQ5FQG3" />
         </main>
       </div>
     </div>

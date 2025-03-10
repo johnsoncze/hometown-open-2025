@@ -1,0 +1,1106 @@
+{
+  "griffindor": {
+    "house": "Nebelvir",
+    "color": "bg-red-900",
+    "captain": "Marek O",
+    "head": "Lucka L",
+    "score": 67.75,
+    "extraPoints": {
+      "judging": 6.25,
+      "officialEntries": 9,
+      "refreshment": 4.5
+    },
+    "members": [
+      {
+        "name": "MAREK O",
+        "gender": "M",
+        "results": {
+          "1": {
+            "result": 189,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 167,
+            "rxsc": "RX",
+            "points": 1
+          }
+        }
+      },
+      {
+        "name": "LUCI L",
+        "gender": "F",
+        "results": {
+          "1": {
+            "result": 222,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
+          },
+          "2": {
+            "result": 164,
+            "rxsc": "RX",
+            "points": 1
+          }
+        }
+      },
+      {
+        "name": "MARTI V",
+        "gender": "F",
+        "results": {
+          "1": {
+            "result": 206,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 120,
+            "rxsc": "RX",
+            "points": 1
+          }
+        }
+      },
+      {
+        "name": "HONZA PA",
+        "gender": "M",
+        "results": {
+          "1": {
+            "result": 138,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 156,
+            "rxsc": "F",
+            "points": 1
+          }
+        }
+      },
+      {
+        "name": "MARCEL H",
+        "gender": "M",
+        "results": {
+          "1": {
+            "result": 130,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 161,
+            "rxsc": "SC",
+            "points": 1
+          }
+        }
+      },
+      {
+        "name": "ADAM O",
+        "results": {
+          "1": {
+            "result": 240,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
+          },
+          "2": {
+            "result": "08:55",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "MÍŠA KU",
+        "results": {
+          "1": {
+            "result": 171,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 154,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "PETR J",
+        "results": {
+          "1": {
+            "result": 206,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
+          },
+          "2": {
+            "result": "09:59",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ADAM J",
+        "results": {
+          "1": {
+            "result": 234,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
+          },
+          "2": {
+            "result": "11:43",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "PETR N",
+        "results": {
+          "1": {
+            "result": 184,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 163,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "VAL S",
+        "results": {
+          "1": {
+            "result": 184,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "09:00",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "SOŇA K",
+        "results": {
+          "1": {
+            "result": 138,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 141,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "RADKA F",
+        "results": {
+          "1": {
+            "result": 166,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "VOJTA K",
+        "results": {
+          "1": {
+            "result": 144,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 139,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      }
+    ]
+  },
+  "ravenclaw": {
+    "house": "Havraspar",
+    "color": "bg-blue-900",
+    "captain": "Kelli",
+    "head": "Honza Bubík",
+    "score": 65.5,
+    "extraPoints": {
+      "judging": 6,
+      "officialEntries": 18,
+      "refreshment": 4.5
+    },
+    "members": [
+      {
+        "name": "KELLI",
+        "results": {
+          "1": {
+            "result": 175,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 164,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "HANUŠ",
+        "results": {
+          "1": {
+            "result": 136,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 148,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "HONZA PR",
+        "results": {
+          "1": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "MAREK T",
+        "results": {
+          "1": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "2": {
+            "result": 99,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "MIKULÁŠ K",
+        "results": {
+          "1": {
+            "result": 201,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
+          },
+          "2": {
+            "result": "09:46",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "NICOLE D",
+        "results": {
+          "1": {
+            "result": 191,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "TONY F",
+        "results": {
+          "1": {
+            "result": 167,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "MIHAI",
+        "results": {
+          "1": {
+            "result": 134,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 125,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "CLUBO",
+        "results": {
+          "1": {
+            "result": 202,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 202,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "MARKÉT D",
+        "results": {
+          "1": {
+            "result": 205,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
+          },
+          "2": {
+            "result": 213,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "LUCIE F",
+        "results": {
+          "1": {
+            "result": "nebyla",
+            "rxsc": null,
+            "points": -1
+          },
+          "2": {
+            "result": "nebyla",
+            "rxsc": null,
+            "points": -1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "KAČKA K",
+        "results": {
+          "1": {
+            "result": 154,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "MÍŠA M",
+        "results": {
+          "1": {
+            "result": 125,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 6:24",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "NIKOLA H",
+        "results": {
+          "1": {
+            "result": 169,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 161,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "MAREN ",
+        "results": {
+          "1": {
+            "result": 182,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 6:46",
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "MÍŠA KO",
+        "results": {
+          "1": {
+            "result": 239,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
+          },
+          "2": {
+            "result": "10:40",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "KUBA K",
+        "results": {
+          "1": {
+            "result": 161,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 149,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "OLEH",
+        "results": {
+          "1": {
+            "result": 182,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 11:07",
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "TERKA C ",
+        "results": {
+          "1": {
+            "result": 222,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 206,
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "MIRA H",
+        "results": {
+          "1": {
+            "result": 161,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 158,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      }
+    ]
+  },
+  "slytherin": {
+    "house": "Zmijozel",
+    "color": "bg-green-900",
+    "captain": "Barča S",
+    "head": "Vojta P",
+    "score": 70.25,
+    "extraPoints": {
+      "judging": 8.75,
+      "officialEntries": 3,
+      "refreshment": 3.5
+    },
+    "members": [
+      {
+        "name": "BARČA S",
+        "results": {
+          "1": {
+            "result": 165,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 156,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "VOJTA P",
+        "results": {
+          "1": {
+            "result": 248,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
+          },
+          "2": {
+            "result": "10:08",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ADÉL K",
+        "results": {
+          "1": {
+            "result": 148,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 10:25",
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "ROMAN F",
+        "results": {
+          "1": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "FILIP H",
+        "results": {
+          "1": {
+            "result": 206,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 3
+          },
+          "2": {
+            "result": 208,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 3
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "TÝNA V",
+        "results": {
+          "1": {
+            "result": 202,
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
+          },
+          "2": {
+            "result": "10:27",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "EDIT",
+        "results": {
+          "1": {
+            "result": 220,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 3
+          },
+          "2": {
+            "result": 210,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "MICHAL K",
+        "results": {
+          "1": {
+            "result": 203,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "nebyl",
+            "rxsc": null,
+            "points": -1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "BARČA H",
+        "results": {
+          "1": {
+            "result": 141,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "10:21",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "HONZA EL",
+        "results": {
+          "1": {
+            "result": 201,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 166,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "DENČA L",
+        "results": {
+          "1": {
+            "result": 181,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "11:40",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "HUNG LE",
+        "results": {
+          "1": {
+            "result": 161,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 150,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ROBERT M",
+        "results": {
+          "1": {
+            "result": 142,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 201,
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ONDRA Š",
+        "results": {
+          "1": {
+            "result": 182,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 7:11",
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "TOMAS I",
+        "results": {
+          "1": {
+            "result": 160,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 158,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      }
+    ]
+  },
+  "hufflepuff": {
+    "house": "Mrzimor",
+    "color": "bg-yellow-500",
+    "captain": "Oci",
+    "head": "Vlaďka",
+    "score": 62,
+    "extraPoints": {
+      "judging": 5.5,
+      "officialEntries": 15,
+      "refreshment": 3.5
+    },
+    "members": [
+      {
+        "name": "OCI",
+        "results": {
+          "1": {
+            "result": 132,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 95,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "VLAĎKA",
+        "results": {
+          "1": {
+            "result": 229,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
+          },
+          "2": {
+            "result": 168,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 3
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "ONDRA S ",
+        "results": {
+          "1": {
+            "result": 157,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 136,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "KLÁRA K",
+        "results": {
+          "1": {
+            "result": 212,
+            "rxsc": "RX",
+            "points": -1
+          },
+          "2": {
+            "result": 158,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "VLÁĎA D",
+        "results": {
+          "1": {
+            "result": 168,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 163,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ŠÁRKA H",
+        "results": {
+          "1": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "2": {
+            "result": 203,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "JULIE P",
+        "results": {
+          "1": {
+            "result": 116,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 8:09",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "TOM S",
+        "results": {
+          "1": {
+            "result": 151,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": "11:35",
+            "rxsc": "F",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "ANIČKA R",
+        "results": {
+          "1": {
+            "result": 207,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 199,
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "VAŠEK K",
+        "results": {
+          "1": {
+            "result": 186,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 168,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "KLÁRA T",
+        "results": {
+          "1": {
+            "result": 188,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": "TB 8:47",
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      },
+      {
+        "name": "VIKTOR S",
+        "results": {
+          "1": {
+            "result": 192,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "2": {
+            "result": 158,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "TONDA CH",
+        "results": {
+          "1": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "2": {
+            "result": 100,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "HONZA S",
+        "results": {
+          "1": {
+            "result": 149,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "2": {
+            "result": 164,
+            "rxsc": "SC",
+            "points": 1
+          }
+        },
+        "gender": "M"
+      },
+      {
+        "name": "Marie M",
+        "results": {
+          "1": {
+            "result": null,
+            "rxsc": null,
+            "points": 1
+          },
+          "2": {
+            "result": 158,
+            "rxsc": "RX",
+            "points": 1
+          }
+        },
+        "gender": "F"
+      }
+    ]
+  }
+}

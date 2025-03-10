@@ -68,7 +68,7 @@ const HouseCard = ({ house, captain, head, members, score }) => {
           <div className="h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-600 p-2">
             <ul className="text-center space-y-1">
               {members.map((member, index) => (
-                <li key={index} className="text-lg">{member}</li>
+                <li key={index} className="text-lg">{member.name}</li>
               ))}
             </ul>
           </div>
