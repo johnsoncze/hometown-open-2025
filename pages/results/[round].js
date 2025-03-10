@@ -151,7 +151,7 @@ const categories = {
 
                 {/* Tabulka umístění podle RX/SC a genderu */}
                 <div className="mt-10 w-full max-w-screen-lg bg-gray-800 p-1 rounded-lg shadow-lg">
-                  <h2 className="text-2xl font-bold text-center mb-4">📊 Umístění podle RX/SC a genderu</h2>
+                  <h2 className="text-2xl font-bold text-center mb-4">📊 Umístění podle kategorie</h2>
 
                   {Object.entries(categories).filter(([category, com]) => com.length > 0).map(([category, competitors]) => (
                     <div key={category} className="mt-6">
