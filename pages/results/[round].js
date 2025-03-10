@@ -114,7 +114,7 @@ const categories = {
                     <div key={house} className={`rounded-lg shadow-lg p-2 mb-6 ${team.color}`}>
                       <h2 className="text-2xl font-bold text-center uppercase">{team.house}</h2>
                       <p className="text-center text-3xl font-bold mt-4">
-                        Body za kolo: {team.members.reduce((acc, member) => acc + member.results[round].points + (member.results[1].positionPoints ?? 0), 0)}
+                        Body za kolo: {team.members.reduce((acc, member) => acc + member.results[round].points + (member.results[round].positionPoints ?? 0), 0)}
                       </p>
 
                       {/* Tabulka výsledků jednotlivých účastníků */}
