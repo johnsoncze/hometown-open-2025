@@ -55,7 +55,7 @@ const allCompetitors = Object.entries(data).flatMap(([house, team]) =>
     }
 
     return {
-      name: `${member.name} (${team.house})`, // Přidáme kolej k jménu
+      name: `${member.name} (${team.house[0]})`, // Přidáme kolej k jménu
       result: result,
       rxsc: member.results[round]?.rxsc || "SC",
       gender: member.gender || "Muži", // Výchozí hodnotu nastavíme na "Muži", pokud není definována
@@ -150,7 +150,7 @@ const categories = {
                 </div>
 
                 {/* Tabulka umístění podle RX/SC a genderu */}
-                <div className="mt-10 w-full max-w-screen-lg bg-gray-800 p-4 rounded-lg shadow-lg">
+                <div className="mt-10 w-full max-w-screen-lg bg-gray-800 p-1 rounded-lg shadow-lg">
                   <h2 className="text-2xl font-bold text-center mb-4">📊 Umístění podle RX/SC a genderu</h2>
 
                   {Object.entries(categories).filter(([category, com]) => com.length > 0).map(([category, competitors]) => (
@@ -160,7 +160,7 @@ const categories = {
                         <table className="w-full text-left mt-2 border-collapse border border-gray-500">
                           <thead>
                             <tr className="bg-gray-600 text-white">
-                              <th className="border border-gray-500 px-4 py-2">Pořadí</th>
+                              <th className="border border-gray-500 px-4 py-2">#</th>
                               <th className="border border-gray-500 px-4 py-2">Jméno (Kolej)</th>
                               <th className="border border-gray-500 px-4 py-2">Výsledek</th>
                               <th className="border border-gray-500 px-4 py-2">Body</th>
