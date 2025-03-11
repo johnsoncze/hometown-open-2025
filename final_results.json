@@ -4,11 +4,11 @@
     "color": "bg-red-900",
     "captain": "Marek O",
     "head": "Lucka L",
-    "score": 67.75,
+    "score": 71.75,
     "extraPoints": {
       "judging": 6.25,
       "officialEntries": 9,
-      "refreshment": 4.5
+      "refreshment": 8.5
     },
     "members": [
       {
@@ -70,7 +70,7 @@
             "points": 1
           },
           "2": {
-            "result": 156,
+            "result": "TB 6:29",
             "rxsc": "F",
             "points": 1
           }
@@ -249,11 +249,11 @@
     "color": "bg-blue-900",
     "captain": "Kelli",
     "head": "Honza Bubík",
-    "score": 65.5,
+    "score": 70.5,
     "extraPoints": {
       "judging": 6,
       "officialEntries": 18,
-      "refreshment": 4.5
+      "refreshment": 9.5
     },
     "members": [
       {
@@ -429,9 +429,9 @@
             "points": -1
           },
           "2": {
-            "result": "nebyla",
+            "result": "omluva",
             "rxsc": null,
-            "points": -1
+            "points": 0
           }
         },
         "gender": "F"
@@ -485,7 +485,7 @@
         "gender": "F"
       },
       {
-        "name": "MAREN ",
+        "name": "MAREN",
         "results": {
           "1": {
             "result": 182,
@@ -526,7 +526,7 @@
             "points": 1
           },
           "2": {
-            "result": 149,
+            "result": "TB 11:07",
             "rxsc": "SC",
             "points": 1
           }
@@ -560,7 +560,7 @@
           "2": {
             "result": 206,
             "rxsc": "F",
-            "points": 1
+            "points": 0
           }
         },
         "gender": "F"
@@ -576,7 +576,7 @@
           "2": {
             "result": 158,
             "rxsc": "RX",
-            "points": 1
+            "points": 0
           }
         },
         "gender": "M"
@@ -588,11 +588,11 @@
     "color": "bg-green-900",
     "captain": "Barča S",
     "head": "Vojta P",
-    "score": 70.25,
+    "score": 74.25,
     "extraPoints": {
       "judging": 8.75,
       "officialEntries": 3,
-      "refreshment": 3.5
+      "refreshment": 7.5
     },
     "members": [
       {
@@ -851,11 +851,11 @@
     "color": "bg-yellow-500",
     "captain": "Oci",
     "head": "Vlaďka",
-    "score": 62,
+    "score": 64.75,
     "extraPoints": {
-      "judging": 5.5,
+      "judging": 6.75,
       "officialEntries": 15,
-      "refreshment": 3.5
+      "refreshment": 7
     },
     "members": [
       {
