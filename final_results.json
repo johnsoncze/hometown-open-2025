@@ -1084,22 +1084,6 @@
           }
         },
         "gender": "M"
-      },
-      {
-        "name": "Marie M",
-        "results": {
-          "1": {
-            "result": null,
-            "rxsc": null,
-            "points": 1
-          },
-          "2": {
-            "result": 158,
-            "rxsc": "RX",
-            "points": 1
-          }
-        },
-        "gender": "F"
       }
     ]
   }
