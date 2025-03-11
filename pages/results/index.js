@@ -33,7 +33,7 @@ const Results = () => {
                   <h3 className="text-lg font-bold">Extra body:</h3>
                   <p><AcademicCapIcon className="w-5 h-5 inline text-info" /> Judgování: {team.extraPoints.judging} bodů</p>
                   <p>
-                    <TrophyIcon className="w-5 h-5 inline text-info" /> Oficiální přihlášky: {team.extraPoints.officialEntries}
+                    <TrophyIcon className="w-5 h-5 inline text-info" /> Oficiální přihlášky: {team.extraPoints.officialEntries} bodů
                   </p>
                   <p><CakeIcon className="w-5 h-5 inline text-info" /> Občerstvení: {team.extraPoints.refreshment} bodů</p>
                 </div>
