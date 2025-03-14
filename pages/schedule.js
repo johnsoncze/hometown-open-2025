@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ClockIcon } from "@heroicons/react/24/solid";
+import { ClockIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const scheduleData = [
   {
@@ -157,6 +157,61 @@ const Schedule = () => {
           📸 <span className="font-semibold">Fotka:</span> 9:00
         </p>
       </div>
+      {/* Workout info - sbalitelný prvek */}
+      <div className="w-full max-w-lg mb-6">
+        <details className="collapse bg-gray-800 rounded-lg group">
+          <summary className="collapse-title text-xl font-bold cursor-pointer flex justify-between items-center relative">
+            🏋️ Workout of the Day
+            <ChevronDownIcon className="w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 transition-transform duration-300 group-open:rotate-180" />
+          </summary>
+          <div className="collapse-content p-4">
+            <p className="text-lg font-semibold">For time:</p>
+            <ul className="list-disc list-inside text-lg mb-4">
+              <li>5 (scaled) wall walks</li>
+              <li>50-calorie row</li>
+              <li>5 (scaled) wall walks</li>
+              <li>25 deadlifts</li>
+              <li>5 (scaled) wall walks</li>
+              <li>25 cleans</li>
+              <li>5 (scaled) wall walks</li>
+              <li>25 snatches</li>
+              <li>5 (scaled) wall walks</li>
+              <li>50-calorie row</li>
+            </ul>
+            <p className="text-lg font-semibold">⏳ Time cap: 20 minutes</p>
+
+            {/* RX Weights */}
+            <div className="mt-4">
+              <p className="text-lg font-bold text-yellow-300">
+                🔥 RX Weights:
+              </p>
+              <p className="text-md">
+                ♀ 155-lb (70-kg) deadlift, 85-lb (38-kg) clean, 65-lb (29-kg)
+                snatch
+              </p>
+              <p className="text-md">
+                ♂ 225-lb (102-kg) deadlift, 135-lb (61-kg) clean, 95-lb (43-kg)
+                snatch
+              </p>
+            </div>
+
+            {/* Scaled Weights */}
+            <div className="mt-4">
+              <p className="text-lg font-bold text-blue-300">
+                ⚡ Scaled Weights:
+              </p>
+              <p className="text-md">
+                ♀ 95-lb (43-kg) deadlift, 55-lb (25-kg) clean, 35-lb (16-kg)
+                snatch
+              </p>
+              <p className="text-md">
+                ♂ 135-lb (61-kg) deadlift, 95-lb (43-kg) clean, 65-lb (29-kg)
+                snatch
+              </p>
+            </div>
+          </div>
+        </details>
+      </div>
 
       {/* Filtr závodníků */}
       <div className="w-full max-w-lg mb-4">
@@ -263,7 +318,7 @@ const Schedule = () => {
                           </p>
                         ))
                       : ""
-                    //   <p key={idx} className="text-sm">{row[team].length > 0 ? `${teams[team].icon} ${row[team].join(", ")}` : ""}</p>
+                  //   <p key={idx} className="text-sm">{row[team].length > 0 ? `${teams[team].icon} ${row[team].join(", ")}` : ""}</p>
                 )}
               </div>
               <hr />
@@ -271,6 +326,7 @@ const Schedule = () => {
           ))}
         </ul>
       </div>
+      {/* Workout info - sbalitelný prvek */}
     </div>
   );
 };
