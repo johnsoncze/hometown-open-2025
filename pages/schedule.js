@@ -283,7 +283,7 @@ const Schedule = () => {
                           : ""
                       }`}
                     >
-                      {row[team].join(", ")}
+                      {row[team].join(", ")} {row[team].join(", ") == 'Klára S' ? <div className="badge badge-xs badge-soft badge-info">mimo tým</div> : null}
                     </td>
                   )
                 )}
@@ -314,11 +314,10 @@ const Schedule = () => {
                     row[team].length > 0
                       ? row[team].map((name, idx) => (
                           <p key={idx} className="text-sm">
-                            {teams[team].icon} {name} ({teams[team].name})
+                            {teams[team].icon} {name} {name == 'Klára S' ? null : `(${teams[team].name})`}
                           </p>
                         ))
                       : ""
-                  //   <p key={idx} className="text-sm">{row[team].length > 0 ? `${teams[team].icon} ${row[team].join(", ")}` : ""}</p>
                 )}
               </div>
               <hr />
