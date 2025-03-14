@@ -2,119 +2,21 @@ import React, { useState } from "react";
 import { ClockIcon } from "@heroicons/react/24/solid";
 
 const scheduleData = [
-  {
-    time: "9:15",
-    heat: 1,
-    nebelvir: "Val",
-    zmijozel: "Honza EL",
-    havraspar: "Míša H",
-    mrzimor: "Vláďa D",
-  },
-  {
-    time: "9:30",
-    heat: 2,
-    nebelvir: "Honza P",
-    zmijozel: "Baru S",
-    havraspar: "Kelli",
-    mrzimor: "Julie P",
-  },
-  {
-    time: "9:45",
-    heat: 3,
-    nebelvir: "Marti",
-    zmijozel: "Adél K",
-    havraspar: "Marek",
-    mrzimor: "Vlaďka",
-  },
-  {
-    time: "10:00",
-    heat: 4,
-    nebelvir: "Petr N",
-    zmijozel: "Ondra",
-    havraspar: "Terka C",
-    mrzimor: "Oci",
-  },
-  {
-    time: "10:15",
-    heat: 5,
-    nebelvir: "Adam O",
-    zmijozel: "Vojta P",
-    havraspar: "Míša K",
-    mrzimor: "Ondra S",
-  },
-  {
-    time: "10:30",
-    heat: 6,
-    nebelvir: "Míša K",
-    zmijozel: "Barča H",
-    havraspar: "Hanus",
-    mrzimor: "Šárka H",
-  },
-  {
-    time: "10:45",
-    heat: 7,
-    nebelvir: "Mara O",
-    zmijozel: "Tomáš I",
-    havraspar: "Marek T",
-    mrzimor: "Tom S",
-  },
-  {
-    time: "11:00",
-    heat: 8,
-    nebelvir: "Lucka L",
-    zmijozel: "Tina V",
-    havraspar: "Mihai",
-    mrzimor: "Anička",
-  },
-  {
-    time: "11:15",
-    heat: 9,
-    nebelvir: "Vojta K",
-    zmijozel: "Filip",
-    havraspar: "Nikola H",
-    mrzimor: "Klára T",
-  },
-  {
-    time: "11:30",
-    heat: 10,
-    nebelvir: "Marcel",
-    zmijozel: "Denca",
-    havraspar: "Kuba",
-    mrzimor: "Tonda",
-  },
-  {
-    time: "11:45",
-    heat: 11,
-    nebelvir: "Petr J",
-    zmijozel: "Hung",
-    havraspar: "Míša M",
-    mrzimor: "Honza S",
-  },
-  {
-    time: "12:00",
-    heat: 12,
-    nebelvir: "Adam J",
-    zmijozel: "Edit",
-    havraspar: "Oleh",
-    mrzimor: "Viktor S",
-  },
-  {
-    time: "12:15",
-    heat: 13,
-    nebelvir: "Soňa",
-    zmijozel: "Michal K",
-    havraspar: "Clubo",
-    mrzimor: "Klára K",
-  },
-  {
-    time: "12:30",
-    heat: 14,
-    nebelvir: "Marie",
-    zmijozel: "Robert",
-    havraspar: "Markét",
-    mrzimor: "Vašek K",
-  },
-];
+    { time: "9:15", heat: 1, nebelvir: "Radka F", zmijozel: "Edit", havraspar: "Mira", mrzimor: "Vláďa D" },
+    { time: "9:38", heat: 2, nebelvir: "Honza P", zmijozel: "Adél", havraspar: "Nicole", mrzimor: "Tom S" },
+    { time: "10:01", heat: 3, nebelvir: "Petr N", zmijozel: "Tina", havraspar: "Mikuláš", mrzimor: "Ondra S" },
+    { time: "10:24", heat: 4, nebelvir: "Marti", zmijozel: "Baru S", havraspar: "Hanuš", mrzimor: "Oci" },
+    { time: "10:47", heat: 5, nebelvir: "Luci", zmijozel: "Filip", havraspar: "Oleh", mrzimor: "Vlaďka" },
+    { time: "11:10", heat: 6, nebelvir: "Marek O", zmijozel: "Barča H", havraspar: "Marek T", mrzimor: "Anička" },
+    { time: "11:33", heat: 7, nebelvir: "Míša K", zmijozel: "Michal K", havraspar: "Mihai", mrzimor: "Tonda" },
+    { time: "11:56", heat: 8, nebelvir: "Adam O", zmijozel: "Vojta P", havraspar: "Clubo", mrzimor: "Klára K" },
+    { time: "12:19", heat: 9, nebelvir: "Marcel", zmijozel: "Hung", havraspar: "Kačka K", mrzimor: "Klára T" },
+    { time: "12:42", heat: 10, nebelvir: "Vojta K", zmijozel: "Ondra", havraspar: "Markét", mrzimor: "Vašek K" },
+    { time: "13:05", heat: 11, nebelvir: "Soňa", zmijozel: "Tomáš I", havraspar: "Nikola H", mrzimor: "Viktor S" },
+    { time: "13:28", heat: 12, nebelvir: "Val", zmijozel: "Míša K", havraspar: "Míša M", mrzimor: "Honza S" },
+    { time: "13:51", heat: 13, nebelvir: "Petr J", zmijozel: "Kuba K", havraspar: "Maren", mrzimor: "Klára S" },
+    { time: "14:14", heat: 14, nebelvir: "Adam J", zmijozel: "Terka C", havraspar: null, mrzimor: null },
+  ];
 
 const Schedule = () => {
   const [selectedAthlete, setSelectedAthlete] = useState("");
@@ -126,7 +28,7 @@ const Schedule = () => {
   return (
     <div className="flex flex-col items-center min-h-screen text-white p-4 md:p-10">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-        Rozpis 25.2
+        Rozpis 25.3
       </h1>
 
       {/* Filtr závodníků */}
