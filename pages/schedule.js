@@ -37,7 +37,7 @@ const scheduleData = [
   {
     time: "10:47",
     heat: 5,
-    nebelvir: ["Luc"],
+    nebelvir: ["Luci"],
     zmijozel: ["Filip"],
     havraspar: ["Oleh"],
     mrzimor: ["Vlaďka"],
