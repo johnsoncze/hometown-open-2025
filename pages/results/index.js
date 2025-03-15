@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../final_results.json";
 import { useRouter } from "next/router";
-import { AcademicCapIcon, TrophyIcon, CakeIcon } from "@heroicons/react/24/outline";
+import { AcademicCapIcon, TrophyIcon, CakeIcon, StarIcon } from "@heroicons/react/24/outline";
 
 const rounds = {
   1: "25.1",
@@ -46,6 +46,7 @@ const Results = () => {
                     <TrophyIcon className="w-5 h-5 inline text-info" /> Oficiální přihlášky: {team.extraPoints.officialEntries} bodů
                   </p>
                   <p><CakeIcon className="w-5 h-5 inline text-info" /> Občerstvení: {team.extraPoints.refreshment} bodů</p>
+                  <p><StarIcon className="w-5 h-5 inline text-info" /> Kostým: {team.extraPoints.costume}</p>
                 </div>
 
                       {/* Tabulka výsledků jednotlivých účastníků */}
