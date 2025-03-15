@@ -102,7 +102,7 @@ const categories = {
         </a>
         {Object.keys(rounds).map((key) => (
           <React.Fragment key={key}>
-            <a href={`/results/${key}`} role="tab" className={`tab ${round === key ? "tab-active" : ""} ${key == 3 ? "tab-disabled" : ""}`}>
+            <a href={`/results/${key}`} role="tab" className={`tab ${round === key ? "tab-active" : ""}`}>
               {rounds[key]}
             </a>
             {round === key && (

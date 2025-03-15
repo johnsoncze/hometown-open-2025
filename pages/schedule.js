@@ -201,7 +201,7 @@ const Schedule = () => {
                 ⚡ Scaled Weights:
               </p>
               <p className="text-md">
-                ♀ 95-lb (43-kg) deadlift, 55-lb (25-kg) clean, 35-lb (16-kg)
+                ♀ 85-lb (38-kg) deadlift, 63-lb (29-kg) clean, 45-lb (20-kg)
                 snatch
               </p>
               <p className="text-md">

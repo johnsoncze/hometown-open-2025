@@ -4,11 +4,12 @@
     "color": "bg-red-900",
     "captain": "Marek O",
     "head": "Lucka L",
-    "score": 71.75,
+    "score": 106.75,
     "extraPoints": {
-      "judging": 6.25,
+      "judging": 9.25,
       "officialEntries": 9,
-      "refreshment": 8.5
+      "refreshment": 11.5,
+      "costume": 3
     },
     "members": [
       {
@@ -22,6 +23,11 @@
           },
           "2": {
             "result": 167,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 175,
             "rxsc": "RX",
             "points": 1
           }
@@ -41,6 +47,12 @@
             "result": 164,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": "18:01",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 3
           }
         }
       },
@@ -55,6 +67,11 @@
           },
           "2": {
             "result": 120,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 182,
             "rxsc": "RX",
             "points": 1
           }
@@ -73,6 +90,11 @@
             "result": "TB 6:29",
             "rxsc": "F",
             "points": 1
+          },
+          "3": {
+            "result": 171,
+            "rxsc": "SC",
+            "points": 1
           }
         }
       },
@@ -87,6 +109,11 @@
           },
           "2": {
             "result": 161,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": 194,
             "rxsc": "SC",
             "points": 1
           }
@@ -106,6 +133,12 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 5
+          },
+          "3": {
+            "result": "15:44",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
           }
         },
         "gender": "M"
@@ -121,6 +154,11 @@
           "2": {
             "result": 154,
             "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": 137,
+            "rxsc": "RX",
             "points": 1
           }
         },
@@ -140,6 +178,12 @@
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 2
+          },
+          "3": {
+            "result": "15:02",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
           }
         },
         "gender": "M"
@@ -155,6 +199,12 @@
           },
           "2": {
             "result": "11:43",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
+          },
+          "3": {
+            "result": "15:29",
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 1
@@ -174,6 +224,11 @@
             "result": 163,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": 175,
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -190,6 +245,11 @@
             "result": "09:00",
             "rxsc": "F",
             "points": 1
+          },
+          "3": {
+            "result": "17:22",
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "F"
@@ -204,6 +264,11 @@
           },
           "2": {
             "result": 141,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": 158,
             "rxsc": "SC",
             "points": 1
           }
@@ -222,6 +287,11 @@
             "result": "omluva",
             "rxsc": null,
             "points": 0
+          },
+          "3": {
+            "result": 175,
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "F"
@@ -238,6 +308,11 @@
             "result": 139,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": "17:52",
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -249,11 +324,12 @@
     "color": "bg-blue-900",
     "captain": "Kelli",
     "head": "Honza Bubík",
-    "score": 70.5,
+    "score": 102.5,
     "extraPoints": {
-      "judging": 6,
+      "judging": 8.75,
       "officialEntries": 18,
-      "refreshment": 9.5
+      "refreshment": 14.5,
+      "costume": 102.25
     },
     "members": [
       {
@@ -268,6 +344,11 @@
             "result": 164,
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": "SC",
+            "points": 0
           }
         },
         "gender": "F"
@@ -283,6 +364,11 @@
           "2": {
             "result": 148,
             "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 124,
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -300,6 +386,11 @@
             "result": "omluva",
             "rxsc": null,
             "points": 0
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": "SC",
+            "points": 0
           }
         },
         "gender": "M"
@@ -316,6 +407,11 @@
             "result": 99,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": "RX",
+            "points": 0
           }
         },
         "gender": "M"
@@ -334,6 +430,12 @@
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 3
+          },
+          "3": {
+            "result": "15:20",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
           }
         },
         "gender": "M"
@@ -350,6 +452,11 @@
             "result": "omluva",
             "rxsc": null,
             "points": 0
+          },
+          "3": {
+            "result": "17:06",
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "F"
@@ -365,6 +472,11 @@
           "2": {
             "result": "omluva",
             "rxsc": null,
+            "points": 0
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": "RX",
             "points": 0
           }
         },
@@ -382,6 +494,11 @@
             "result": 125,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": 117,
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -396,6 +513,11 @@
           },
           "2": {
             "result": 202,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": "19:24",
             "rxsc": "RX",
             "points": 1
           }
@@ -416,6 +538,12 @@
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 1
+          },
+          "3": {
+            "result": "16:32",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 1
           }
         },
         "gender": "F"
@@ -429,6 +557,11 @@
             "points": -1
           },
           "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "3": {
             "result": "omluva",
             "rxsc": null,
             "points": 0
@@ -448,6 +581,11 @@
             "result": "omluva",
             "rxsc": null,
             "points": 0
+          },
+          "3": {
+            "result": 157,
+            "rxsc": "SC",
+            "points": 0
           }
         },
         "gender": "F"
@@ -463,6 +601,11 @@
           "2": {
             "result": "TB 6:24",
             "rxsc": "F",
+            "points": 1
+          },
+          "3": {
+            "result": 175,
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -480,6 +623,11 @@
             "result": 161,
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": 184,
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "F"
@@ -494,6 +642,11 @@
           },
           "2": {
             "result": "TB 6:46",
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": "18:27",
             "rxsc": "SC",
             "points": 1
           }
@@ -513,6 +666,12 @@
             "result": "10:40",
             "rxsc": "F",
             "points": 1
+          },
+          "3": {
+            "result": "14:07",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 3
           }
         },
         "gender": "F"
@@ -527,6 +686,11 @@
           },
           "2": {
             "result": "TB 11:07",
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": "17:53",
             "rxsc": "SC",
             "points": 1
           }
@@ -545,6 +709,11 @@
             "result": "TB 11:07",
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": 148,
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -561,6 +730,11 @@
             "result": 206,
             "rxsc": "F",
             "points": 0
+          },
+          "3": {
+            "result": "17:05",
+            "rxsc": "SC",
+            "points": 0,
           }
         },
         "gender": "F"
@@ -577,6 +751,11 @@
             "result": 158,
             "rxsc": "RX",
             "points": 0
+          },
+          "3": {
+            "result": 145,
+            "rxsc": "RX",
+            "points": 0
           }
         },
         "gender": "M"
@@ -588,11 +767,12 @@
     "color": "bg-green-900",
     "captain": "Barča S",
     "head": "Vojta P",
-    "score": 74.25,
+    "score": 102.5,
     "extraPoints": {
-      "judging": 8.75,
+      "judging": 12,
       "officialEntries": 3,
-      "refreshment": 7.5
+      "refreshment": 9.5,
+      "costume": 5
     },
     "members": [
       {
@@ -605,6 +785,11 @@
           },
           "2": {
             "result": 156,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 139,
             "rxsc": "RX",
             "points": 1
           }
@@ -625,6 +810,12 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 4
+          },
+          "3": {
+            "result": "16:27",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
           }
         },
         "gender": "M"
@@ -641,6 +832,11 @@
             "result": "TB 10:25",
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": 195,
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "F"
@@ -654,6 +850,11 @@
             "points": 0
           },
           "2": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
+          },
+          "3": {
             "result": "omluva",
             "rxsc": null,
             "points": 0
@@ -675,6 +876,11 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 3
+          },
+          "3": {
+            "result": "19:10",
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -693,6 +899,12 @@
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 3
+          },
+          "3": {
+            "result": "14:59",
+            "rxsc": "SC",
+            "points": 1,
+            "positionPoints": 2
           }
         },
         "gender": "F"
@@ -711,6 +923,11 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 5
+          },
+          "3": {
+            "result": "19:45",
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "F"
@@ -727,6 +944,11 @@
             "result": "nebyl",
             "rxsc": null,
             "points": -1
+          },
+          "3": {
+            "result": 141,
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "M"
@@ -742,6 +964,11 @@
           "2": {
             "result": "10:21",
             "rxsc": "F",
+            "points": 1
+          },
+          "3": {
+            "result": "19:07",
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -759,6 +986,12 @@
             "result": 166,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": "18:10",
+            "rxsc": "RX",
+            "points": 0,
+            "positionPoints": 3
           }
         },
         "gender": "M"
@@ -776,6 +1009,11 @@
             "rxsc": "SC",
             "points": 1,
             "positionPoints": 2
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
           }
         },
         "gender": "F"
@@ -790,6 +1028,11 @@
           },
           "2": {
             "result": 150,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 132,
             "rxsc": "RX",
             "points": 1
           }
@@ -808,6 +1051,11 @@
             "result": 201,
             "rxsc": "F",
             "points": 1
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
           }
         },
         "gender": "M"
@@ -822,6 +1070,11 @@
           },
           "2": {
             "result": "TB 7:11",
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": "18:50",
             "rxsc": "SC",
             "points": 1
           }
@@ -840,6 +1093,11 @@
             "result": 158,
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": "nebyl",
+            "rxsc": null,
+            "points": -1
           }
         },
         "gender": "M"
@@ -851,11 +1109,12 @@
     "color": "bg-yellow-500",
     "captain": "Oci",
     "head": "Vlaďka",
-    "score": 65.25,
+    "score": 96.5,
     "extraPoints": {
-      "judging": 6.75,
+      "judging": 10,
       "officialEntries": 15,
-      "refreshment": 7.5
+      "refreshment": 9.5,
+      "costume": 5
     },
     "members": [
       {
@@ -868,6 +1127,11 @@
           },
           "2": {
             "result": 95,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 116,
             "rxsc": "RX",
             "points": 1
           }
@@ -888,6 +1152,12 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 3
+          },
+          "3": {
+            "result": "16:17",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 4
           }
         },
         "gender": "F"
@@ -903,6 +1173,11 @@
           "2": {
             "result": 136,
             "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 118,
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -920,6 +1195,12 @@
             "result": 158,
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": "16:14",
+            "rxsc": "RX",
+            "points": 1,
+            "positionPoints": 5
           }
         },
         "gender": "F"
@@ -934,6 +1215,11 @@
           },
           "2": {
             "result": 163,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 149,
             "rxsc": "RX",
             "points": 1
           }
@@ -952,6 +1238,11 @@
             "result": 203,
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
           }
         },
         "gender": "F"
@@ -968,6 +1259,11 @@
             "result": "TB 8:09",
             "rxsc": "F",
             "points": 1
+          },
+          "3": {
+            "result": "omluva",
+            "rxsc": null,
+            "points": 0
           }
         },
         "gender": "F"
@@ -983,6 +1279,11 @@
           "2": {
             "result": "11:35",
             "rxsc": "F",
+            "points": 1
+          },
+          "3": {
+            "result": 156,
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -1001,6 +1302,11 @@
             "rxsc": "RX",
             "points": 1,
             "positionPoints": 4
+          },
+          "3": {
+            "result": "19:29",
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "F"
@@ -1015,6 +1321,11 @@
           },
           "2": {
             "result": 168,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": "19:28",
             "rxsc": "RX",
             "points": 1
           }
@@ -1033,6 +1344,11 @@
             "result": "TB 8:47",
             "rxsc": "RX",
             "points": 1
+          },
+          "3": {
+            "result": 162,
+            "rxsc": "RX",
+            "points": 1
           }
         },
         "gender": "F"
@@ -1047,6 +1363,11 @@
           },
           "2": {
             "result": 158,
+            "rxsc": "RX",
+            "points": 1
+          },
+          "3": {
+            "result": 148,
             "rxsc": "RX",
             "points": 1
           }
@@ -1065,6 +1386,11 @@
             "result": 100,
             "rxsc": "SC",
             "points": 1
+          },
+          "3": {
+            "result": "16:28",
+            "rxsc": "SC",
+            "points": 1
           }
         },
         "gender": "M"
@@ -1079,6 +1405,11 @@
           },
           "2": {
             "result": 164,
+            "rxsc": "SC",
+            "points": 1
+          },
+          "3": {
+            "result": "19:45",
             "rxsc": "SC",
             "points": 1
           }
