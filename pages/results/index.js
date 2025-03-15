@@ -13,6 +13,16 @@ const Results = () => {
   const router = useRouter();
   const { round } = router.query;
 
+  const allCompetitors = Object.entries(data).flatMap(([house, team]) =>
+    team.members.map((member) => {
+      return {
+        name: member.name,
+        score: Object.values(member.results).reduce((acc, { points, positionPoints }) => acc + points + (positionPoints ?? 0), 0),
+        house: team.house,
+      };
+    })
+  ).sort((a, b) => b.score - a.score);
+
   return (
     <div className="flex flex-col items-center min-h-screen text-white w-full max-w-screen-lg">
       <div role="tablist" className="tabs bg-slate-800 p-0 md:p-2 mt-0 w-full">
@@ -69,10 +79,39 @@ const Results = () => {
                     </div>
                   ))}
                 </div>
+                <div>
+                <div className="mt-10 w-full max-w-screen-lg bg-gray-800 p-1 rounded-lg shadow-lg">
+                  <h3 className="text-lg font-bold">🏆 Umístění
+                  </h3>
+                  <div className="w-full overflow-x-auto">
+                    <table className="w-full text-left mt-2 border-collapse border border-gray-500">
+                      <thead>
+                        <tr className="bg-gray-600 text-white">
+                          <th className="border border-gray-500 px-4 py-2">Pořadí</th>
+                          <th className="border border-gray-500 px-4 py-2">Jméno</th>
+                          <th className="border border-gray-500 px-4 py-2">Kolej</th>
+                          <th className="border border-gray-500 px-4 py-2">Body</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {allCompetitors.map((competitor, idx) => (
+                          <tr key={idx} className="hover:bg-gray-800">
+                            <td className="border border-gray-500 px-4 py-2">{idx + 1}.</td>
+                            <td className="border border-gray-500 px-4 py-2">{competitor.name}</td>
+                            <td className="border border-gray-500 px-4 py-2">{competitor.house}</td>
+                            <td className="border border-gray-500 px-4 py-2">{competitor.score}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+
+                </div>
+              </div>
+                </div>
               </div>
         {Object.keys(rounds).map((key) => (
           <React.Fragment key={key}>
-            <a href={`/results/${key}`} role="tab" className={`tab ${key == 3 ? "tab-disabled" : ""}`}>
+            <a href={`/results/${key}`} role="tab" className={`tab`}>
               {rounds[key]}
             </a>
           </React.Fragment>

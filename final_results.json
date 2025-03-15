@@ -311,7 +311,7 @@
           },
           "3": {
             "result": "17:52",
-            "rxsc": "RX",
+            "rxsc": "SC",
             "points": 1
           }
         },
@@ -585,7 +585,7 @@
           "3": {
             "result": 157,
             "rxsc": "SC",
-            "points": 0
+            "points": 1
           }
         },
         "gender": "F"
@@ -734,7 +734,7 @@
           "3": {
             "result": "17:05",
             "rxsc": "SC",
-            "points": 0,
+            "points": 0
           }
         },
         "gender": "F"
